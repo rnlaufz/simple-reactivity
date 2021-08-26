@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reactivity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="disp-flex">
+<div class="card disp-flex padding-10">
+    <div class="card__description disp-flex padding-10 width-100">
+        <h3 class="card__description__header padding-10 header">Simple reactivity system</h3>
+        <p class="card__description__text padding-10">
+            By default: constant =
+             <span class="card__description__text__constant-value padding-10 underlined"></span>,
+            <br>
+             changer =
+             <span class="card__description__text__changer-value padding-10 underlined"></span>.
+            <br>
+            Action is: constant * changer.
+            <br>
+        </p>
+    </div>
+    <hr />
+    <div class="card__form-container padding-10 width-100 text-centered">
+        <h3 class="card__form-container__header padding-10 text-centered header">Set new changer:</h3>
+        <form class="card__form-container__form text-centered">
+            <input type="text" class="card__form-container__form__input border-blue padding-5 no-focus">
+            <input type="submit" value="Change" class="card__form-container__form__submit border-blue padding-5 no-focus">
+            <p class="card__form-container__form__text padding-10">
+                Constant:
+                <span class="card__form-container__form__text__new-constant underlined"></span>
+                <br>
+                Changer:
+                <span class="card__form-container__form__text__new-changer underlined"></span>
+                <br>
+                Output:
+                <span class="card__form-container__form__text__result-value underlined"></span>.
+            </p>
+        </form>
+    </div>
+</div>
+<!--Скрипт через объектрые мет
+оды-->
+<!--<script src="app.js"></script>-->
+<!-- Скрипт через proxy-->
+<script src="app-proxy.js"></script>
+</body>
+</html>
