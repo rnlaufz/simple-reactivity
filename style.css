@@ -21,26 +21,16 @@ hr{
     flex-direction: column;
 }
 .width-100{width: 100%}
-.padding-10{
-    padding: 10px;
-}
+.padding-10{padding: 10px;}
 .padding-5{padding: 5px}
-.underlined{
-    text-decoration: underline 1px lightblue;
- }
-.text-centered{
-    text-align: center;
-}
-.text-started{
-    text-align: start;
-}
+.underlined{text-decoration: underline 1px lightblue;}
+.text-centered{text-align: center;}
+.text-started{text-align: start;}
 .border-blue{
     border: lightblue solid 1px;
     border-radius: 3px;
 }
-.no-focus:focus{
-    outline: none;
-}
+.no-focus:focus{outline: none;}
 .header{
     font-size: 24px;
     font-weight: lighter;
@@ -52,12 +42,8 @@ hr{
     box-shadow: 0 0 10px lightblue;
     justify-content: space-between;
 }
-
 .card__form-container__form__submit{
     background: lightblue;
     color: #fff;
 }
-.card__form-container__form__text{
-    width: 55%;
-
-}
+.card__form-container__form__text{width: 55%;}

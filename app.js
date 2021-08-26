@@ -1,10 +1,10 @@
-const output = document.querySelector(".card__form-container__form__text__result-value");
-const input = document.querySelector(".card__form-container__form__input");
-const form = document.querySelector(".card__form-container__form");
-const initChanger = document.querySelector(".card__description__text__changer-value");
-const initConstant = document.querySelector(".card__description__text__constant-value");
-const newChanger = document.querySelector(".card__form-container__form__text__new-changer");
-const newConstant = document.querySelector(".card__form-container__form__text__new-constant");
+const   output = document.querySelector(".card__form-container__form__text__result-value"),
+        input = document.querySelector(".card__form-container__form__input"),
+        form = document.querySelector(".card__form-container__form"),
+        initChanger = document.querySelector(".card__description__text__changer-value"),
+        initConstant = document.querySelector(".card__description__text__constant-value"),
+        newChanger = document.querySelector(".card__form-container__form__text__new-changer"),
+        newConstant = document.querySelector(".card__form-container__form__text__new-constant");
 
 let data = {
     constant: 2,
